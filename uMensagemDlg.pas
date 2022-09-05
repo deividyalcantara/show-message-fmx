@@ -381,6 +381,8 @@ begin
         end;
         Stroke.Kind := TBrushKind.None;
         XRadius := 8;
+        Height := FComponenteLayouBotao.Height;
+        Position.Y := 0;
         YRadius := 8;
       end;
 
@@ -472,6 +474,8 @@ begin
         Stroke.Kind := TBrushKind.None;
         XRadius := 20;
         YRadius := 20;
+        Height := FComponenteLayouBotao.Height;
+        Position.Y := 0;
       end;
 
       with FBotoes[i].texto do begin
@@ -545,6 +549,8 @@ begin
         Stroke.Kind := TBrushKind.None;
         XRadius := 20;
         YRadius := 20;
+        Height := FComponenteLayouBotao.Height;
+        Position.Y := 0;
       end;
 
       with FBotoes[i].texto do begin
